@@ -41,27 +41,11 @@
           <input
             type="submit"
             name="submit"
-            onclick="h()"
             value="login"
             id="submit"
           />
         </div>
       </form>
     </div>
-    <script>
-      function h() {
-        const use = document.getElementById("user").NodeValue;
-        const pas = document.getElementById("pass").NodeValue;
-        let data = [
-          {
-            username: "shubham",
-            password: "1234",
-          },
-        ];
-        if (use == data[0].username && pas == data[0].password) {
-          document.querySelector("h1").innerHTML = "hi bro";
-        }
-      }
-    </script>
   </body>
 </html>
